@@ -11,6 +11,14 @@ FockCache tries to make cache poisoning by trying X-Forwarded-Host and X-Forward
 
 After successful result, it gives you a poisoned URL.
 
+
+
+## To be added soon: 
+
+1 - Page Param Checker
+2 - Recursive Checking
+
+
 ## Installation
 
 1 - Install with installer.sh
