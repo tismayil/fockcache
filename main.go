@@ -23,7 +23,7 @@ func randomZen() string {
 
 func sendReq(hostname string, num int) string {
 
-	urlez := hostname + "/" + randomZen() + "=" + randomZen()
+	urlez := hostname + "/?" + randomZen() + "=" + randomZen()
 	if num == 1 {
 
 		header := http.Header{
